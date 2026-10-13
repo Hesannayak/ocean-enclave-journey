@@ -1,0 +1,3 @@
+import {useQuery} from '@tanstack/react-query';
+export type Release={schemaVersion:number;project:string;status:string;publishedAt:null;source:{repo:string;tag:string;releaseDigest:string};phala:{appId:string;composeHash:string;osImageHash:string;deviceId:string;mrtd:string;rtmrs:string[]};lock:Record<string,string|number>;token:{mint:string;creator:string;launchSignature:string};shellWallet:string;explorerReport:{url:string;quoteSha256:string}};
+export function useRelease(){return useQuery<Release>({queryKey:['perly-release'],queryFn:async()=>{const response=await fetch('/release.json');if(!response.ok)throw new Error('The public record could not be loaded.');return response.json()},staleTime:Infinity})}
