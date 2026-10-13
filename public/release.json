@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "project": "PERLY",
+  "status": "demo",
+  "publishedAt": null,
+  "shellWallet": "CDyMh9khQFom1HMzJVTXatrvburibno6ZoCKQAfZB61f",
+  "source": {
+    "repo": "https://github.com/YOUR_ORG/perly-shell",
+    "tag": "v1.0.0",
+    "releaseDigest": "66354d689676fe6dba1d0fab79e5dd82d57ef5dfc212e7e991622d53a23c934e"
+  },
+  "phala": {
+    "appId": "977ae29e78de0a4188c2a71f93d1a6e7495f0d0c",
+    "composeHash": "b2fa4e08fea2f22b7849f76cafaa30cc7c8b59f10b94cb32af960dba6043a5d9",
+    "osImageHash": "988b9b0a96f8f15f2a508fe9d0edd829f1ee0cf32abe7dc2792815c746d065ec",
+    "deviceId": "19c8fecb2eca8ba83f8b55d696a02f8a734522d39c29caf12887320e0e60df83",
+    "mrtd": "82a91a3f348b59f9b7ffbaf8d2e0b165fad250da68239c4678adb83f8d888a1f7a8e00874bf2e0c68cd0b1a73f30c0db",
+    "rtmrs": [
+      "24545ea644bd9880a7bfc3d16ec47652f817ca00b12843dee44ac2ff9618eee794e4d08285c89389c34bafd92a6a130f",
+      "f3aa6deb9914063bbeea372797cb4f1f04c9644756616d3985183d44c2487f3936f6a04c9c480ab841778e2fb5b4432e",
+      "e2e2610e134c5ef2ce53e14e4b53f24df3663acea4fae69d4c624e2d964f878d141206b3546de0597ecf3fb5cfb4ce2a",
+      "e27cfd02879017c3fce4d10ccb6531aec7c0f881a4deedc4016c25e57da5c113468088b6aa7979eb8106c3a3dcc263ac"
+    ]
+  },
+  "lock": {
+    "chainId": 8453,
+    "appRegistry": "0x977ae29e78de0a4188c2a71f93d1a6e7495f0d0c",
+    "kmsAuth": "0x533a675a61ade5146dbdf3f5df566f634671b3a5",
+    "adminAddress": "0x36f44d092f2720a5a3985c378296925bf0a53398",
+    "implementation": "0x0bdfb5ba5acdef734e4683917e440b45230d9880",
+    "registrationTx": "0x6dccefc892039b2816f18655bd6f2020f9c8d1d4cbe2303af36516239b30e9d2",
+    "renounceTx": "0xd79ae73da915671da816f103aa9effbdacfd5b7b4fee64484a12d4abaac821d3"
+  },
+  "token": {
+    "mint": "Fhfjb38ULErpEY7DvnZNQ1i11qPwj4EE4Myq39rwpump",
+    "creator": "CDyMh9khQFom1HMzJVTXatrvburibno6ZoCKQAfZB61f",
+    "launchSignature": "3Pr8NtV9KydhWCnDkMq2aKXrqgqctbveETRsMoL5tU9WqTTrJzhiqs5vYW5EkpXGB4fCtBbgBcT8xjp5Ph4gVjTF"
+  },
+  "explorerReport": {
+    "url": "https://proof.t16z.com/reports/ddae7f4939548faec1207ea076cabbe5a090db3bb12338bdec76c078bc603713",
+    "quoteSha256": "ddae7f4939548faec1207ea076cabbe5a090db3bb12338bdec76c078bc603713"
+  }
+}

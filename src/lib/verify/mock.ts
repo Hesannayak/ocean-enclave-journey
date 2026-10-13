@@ -1,0 +1,3 @@
+import {siteConfig} from '@/config/site.config';
+export async function reportData(wallet:string,nonce:string){const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(`perly:v1:${wallet}:${nonce}`));return '0x'+Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('')+'0'.repeat(64)}
+export async function mockAttestation(composeHash:string){const nonce=Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');return {nonce,shellWallet:siteConfig.solana.shellWallet,reportData:await reportData(siteConfig.solana.shellWallet,nonce),quote:'0x'+'0'.repeat(128),eventLog:[{event:'compose-hash',event_payload:composeHash}],timestamp:Math.floor(Date.now()/1000)}}
